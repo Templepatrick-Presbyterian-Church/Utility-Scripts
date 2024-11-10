@@ -46,7 +46,7 @@ ffmpeg-bar -i "$date.mkv" "$date.mp3"
 # remove the source, copy the mp3 to memory pen and move the 
 # audio to the recording folder
 echo "Copying mp3..."
-copy "$date.mp3" "C:\Users\TemPat PCI V\Dropbox\Church\MP3 Recordings"
+copy "$date.mp3" "C:\Users\%USERNAME%\Dropbox\Church\MP3 Recordings"
 echo "Moving files to archives..."
 move "$date.mkv" "Recordings\Video\$date.mkv"
 move "$date.mp3" "Recordings\Audio\$date.mp3"
